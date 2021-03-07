@@ -7,7 +7,7 @@ jobs:
     steps:
     - name: Hello world action step
       id: hello
-      uses: shubhamsoni28/hello-world-javascript-action@v1
+      uses: shubhamsoni28/hello-world-javascript-action@v1.2
       with:
         who-to-greet: ${{ secrets.ABC }}
     # Use the output from the `hello` step
